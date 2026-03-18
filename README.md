@@ -1,164 +1,174 @@
-# LOCAL SETUP
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&lines=%3E_SYSTEM_ONLINE;%3E_FULL_STACK_ARCHITECT;%3E_BUILDING_THE_FUTURE_OF_WEB3" alt="Typing SVG" />
+</h1>
 
-## Files:
+<p align="center">
+  <a href="https://github.com/geno23"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://x.com/"><img src="https://img.shields.io/badge/X_Network-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="mailto:geno@email.com"><img src="https://img.shields.io/badge/Encrypted_Comms-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-.**init**.py
-dashboard.py
-index.js
-api.js
-downloadEmails.js
+<br>
 
-## Check Credentials:
+<h2 align="center">📟 TERMINAL // ABOUT ME</h2>
 
-MONGO_URI
-Stripe Keys (Front-End / Backend)
-baseURL's
-REACT_APP_STRIPE_KEY_PROD
-REACT_APP_STRIPE_KEY
+```bash
+user@mainframe:~$ cat about_me.txt
+> STATUS: Online
+> ROLE: Full-Stack Developer & Web3 Engineer
+> MISSION: Engineering high-performance applications, scalable database architectures, 
+  and seamless payment gateways.
+> CURRENT_FOCUS: NFT-Email-Collector-Web
+```
 
-## Start Application Locally:
+<br>
 
-`$flask run` - Start Front-End
-`$npm run start` - Start Backend (Database starts automatically)
-`$mongosh` - Login to Database Shell
-`$show dbs` - Show Databases
-`$use [database name]` - Use a database/switch databases
+<h2 align="center">⚡ NEURAL NETWORK // TECH STACK ⚡</h2>
 
-# TESTING
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white" alt="Stripe" />
+</p>
 
-## Local Accounts
+<br>
 
-geno23@email.com
-password
+---
 
-genotest@email.com
-password
+<h2 align="center">🚀 FEATURED DEPLOYMENT: NFT-EMAIL-COLLECTOR-WEB 🚀</h2>
 
-test@email.com
-password
+> **SYSTEM BOOTSTRAP:** Core documentation for the NFT Email Collector architecture.
 
-- testoct8@email.com
-- password
+### 📂 CORE DIRECTORY
+```text
+├── __init__.py
+├── dashboard.py
+├── index.js
+├── api.js
+└── downloadEmails.js
+```
 
-geno@email.com
-password
+### 🔑 ENVIRONMENT CREDENTIALS
+Ensure the following keys are configured in your `.env` file before ignition:
+*   `MONGO_URI`
+*   `REACT_APP_STRIPE_KEY` (Front-End)
+*   `REACT_APP_STRIPE_KEY_PROD` (Production)
+*   `Stripe Keys` (Backend)
+*   `baseURL's`
 
-## Production
+### 💻 LOCAL EXECUTION PROTOCOL
+```bash
+# Start Front-End
+flask run
 
-# STRIPE INFO - TEST CARD
+# Start Backend (Database starts automatically)
+npm run start
 
-4242 4242 4242 4242
-12/34
-111
+# Login to Database Shell
+mongosh
 
-# MONGO DB - Using MongoSH
+# Show Databases
+show dbs
 
-## Use CLI Tool MongoSH
+# Use a database / Switch databases
+use [database name]
+```
 
-`brew install mongosh`
+<br>
 
-Tip:
+### 🧪 QA // TESTING PROTOCOLS
 
-- In mongoDB, tables are referred to as collections.
+**Local Authentication Nodes:**
+| Email Node | Password | Environment |
+| :--- | :--- | :--- |
+| `gene23@email.com` | `password` | Local |
+| `genetest@email.com` | `password` | Local |
+| `test@email.com` | `password` | Local |
+| `testoct8@email.com` | `password` | Local |
+| `gene@email.com` | `password` | Local |
 
-## Commands
+**Production Nodes:** *(Awaiting Deployment)*
 
-Show Databases:
-`show dbs `
+<br>
 
-Use a database/Switch
-`use myDatabase`
+### 💳 STRIPE INTEGRATION // PAYMENT GATEWAY
+Use the following payload to simulate transactions in the test environment:
+```json
+{
+  "Card_Number": "4242 4242 4242 4242",
+  "Expiration": "12/34",
+  "CVC": "111"
+}
+```
 
-Show Collection(tables) within a database
-`show collections`
+<br>
 
-View Documents in a collection
-`db.yourCollectionName.find()`
+### 🗄️ DATABANK // MONGOSH CLI CHEATSHEET
+> **Tip:** In MongoDB, tables are referred to as `collections`.
 
-View Documents with Pretty Formatting
-`db.yourCollectionName.find().pretty()`
+**Installation (macOS):**
+```bash
+brew install mongosh
+```
 
-Count Documents
-`db.yourCollectionName.countDocuments()`
+**Core Commands:**
+```bash
+show dbs                                          # Show Databases
+use myDatabase                                    # Use/Switch Database
+show collections                                  # Show Collections (tables)
+db.yourCollectionName.find()                      # View Documents
+db.yourCollectionName.find().pretty()             # View Documents (Formatted)
+db.yourCollectionName.countDocuments()            # Count Documents
+db.yourCollectionName.find({"key": "value"})      # Find Specific Documents
+db.yourCollectionName.find().limit(10).skip(20)   # Limit and Skip
+db.yourCollectionName.find().sort({"key": 1})     # Sort Documents (1 for asc)
+```
 
-Find Specific Documents
-`db.yourCollectionName.find({"key": "value"})`
+<br>
 
-Limit and Skip:
-`db.yourCollectionName.find().limit(10).skip(20)`
-
-Sort Documents
-`db.yourCollectionName.find().sort({"key": 1}) #1 for asc
-
-# Getting Started with Create React App
+<details>
+<summary><b>⚛️ REACT SUBSYSTEM // CRA DOCUMENTATION (Expand)</b></summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
+### Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+*   `npm start`: Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*   `npm test`: Launches the test runner in the interactive watch mode.
+*   `npm run build`: Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+*   `npm run eject`: **Note: this is a one-way operation. Once you `eject`, you can't go back!** Copies all configuration files and transitive dependencies into your project for full control.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Advanced Documentation
+*   [Learn React](https://reactjs.org/)
+*   [Create React App Docs](https://facebook.github.io/create-react-app/docs/getting-started)
+*   [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*   [Analyzing Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*   [Making a PWA](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*   [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+*   [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
+*   [Troubleshooting: Build fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 align="center">📊 TELEMETRY // GITHUB STATS 📊</h2>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=builde7b0b&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFCC" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=builde7b0b&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFCC" alt="Top Languages" />
+</p>
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2 align="center">🧬 BUILD PHILOSOPHY 🧬</h2>
+<p align="center">
+  <i>"Code is poetry written for machines. Build with purpose, scale with elegance, and always leave the codebase better than you found it. The future of the web is decentralized, secure, and lightning-fast."</i>
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# NFT-email-collector-web
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FFCC&height=100&section=footer" width="100%"/>
+</p>
